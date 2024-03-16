@@ -8,18 +8,20 @@ export const LandingDashboard = () => {
             <Box className='landingDashboard' justifyItems='center' alignItems='center'>
                 <Grid container spacing={8} display='flex'>
                     <Grid item xs={12} sm={6}>
-                        <LandingSection section={{sectionHeader:'StudentDashboard',sectionContent:'student'}} />
+                        <LandingSection section={{sectionHeader:'StudentDashboard',sectionContent:'student infomation'}} />
                     </Grid>
                     <Grid item xs={12} sm={6}>
-                        <LandingSection section={{sectionHeader:'Contracts',sectionContent:'contracts'}} />
+                        <LandingSection section={{sectionHeader:'CourseDashboard',sectionContent:'Course Registration info'}} />
                     </Grid>
                     <Grid item xs={12} sm={6}>
-                    <LandingSection section={{sectionHeader:'Learning Progress',sectionContent:'Progress'}}/>
+                    <LandingSection section={{sectionHeader:'VisaDashboard',sectionContent:'Progress of students visa status'}}/>
                     </Grid>
                     <Grid item xs={12} sm={6}>
-                        <LandingSection section={{sectionHeader:'Courses',sectionContent:'course'}} />
+                        <LandingSection section={{sectionHeader:'ProfessorDashboard',sectionContent:'the courses that professor could view'}} />
                     </Grid>
-                    
+                    <Grid item xs={12} sm={6}>
+                        <LandingSection section={{sectionHeader:'AssignProfessor',sectionContent:'Assign Professor to specific course'}} />
+                    </Grid>
                 </Grid>
             </Box>
     );
