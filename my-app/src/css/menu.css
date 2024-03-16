@@ -1,0 +1,19 @@
+
+.menuOpenButton {
+    top: 50%;
+}
+
+.menuHeader {
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-right: 80px;
+}
+
+
+.menuList {
+    margin: 20px;
+}
+
+.menuBox {
+    border: black;
+}
