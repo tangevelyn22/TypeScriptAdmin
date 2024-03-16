@@ -1,0 +1,18 @@
+
+.landingSection {
+    height: 400px;
+  }
+  
+  .landingHeading {
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 10%;
+    justify-content: space-between;
+    display: flex;
+  }
+  
+  .landingDashboard {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 5%;
+  }

@@ -1,10 +1,11 @@
 
 import React from "react";
 import { Paper, Box, Typography } from "@mui/material";
+import '../../css/landing.css';
 
 export const LandingSection = () => {
     return (
-        <Paper>
+        <Paper className='landingSection' elevation={5}>
             <Typography variant='h4' component='div'>
                 SignUp
             </Typography>
