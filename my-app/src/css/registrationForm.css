@@ -1,0 +1,20 @@
+.registrationForm {
+    width: 400;
+    padding-left: 30%;
+    padding-top: 3%;
+}
+
+.buttonGroup {
+    padding-top: 5%;
+}
+.buttonBack {
+    right: 20px;
+    border-radius: 3%;
+    width: 200px;
+}
+
+.buttonConfirm {
+    left: 20px;
+    border-radius: 3%;
+    width: 200px;
+}
